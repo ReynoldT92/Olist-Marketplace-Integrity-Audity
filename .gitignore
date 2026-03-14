@@ -1,0 +1,25 @@
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Models
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+.DS_Store?
+
+# Virtual Environment
+venv/
+.venv/
